@@ -1,0 +1,418 @@
+/*Header and para*/
+h1{
+	font-size: 50px;
+	line-height: 64px;
+	color: #222;
+}
+
+h2{
+	font-size: 46px;
+	line-height: 54px;
+	color: #222;
+}
+
+h4{
+	font-size: 20px;
+	color: #222;
+}
+
+h6{
+	font-weight: 700;
+	font-size: 12px;
+
+
+}
+
+p{
+	font-size: 16px;
+	color: #465b52;
+	margin: 15px 0px 20px 0px;
+}
+
+u{
+	color:#1a1a1a;
+}
+
+/*Section Part*/
+
+.section-p1{
+	adding: 40px 80px;
+}
+
+.section-m1{
+	margin: 40px 0;
+}
+/*navbar*/
+#tbl_homeLayout{
+	display: flex;	
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 80px;	
+	background: #E3E6F3;
+	box-shadow: 0px 5px 15px black;
+	z-index: 999;
+	top: 0;
+	left: 0;
+
+}
+/*Navigation Part*/
+#Logo{
+	width: 80px;
+}
+
+#tbl_homeLayout td{
+	width: 300px;
+	height: 50px;	
+	align-items: center;
+	justify-content: center;
+	padding: 0px 20px;
+}
+
+/*#nav{
+	width: 100px;
+	height: 50px;
+	font-size: 20px;
+}*/
+
+a:link{
+	text-decoration:none ;
+	color:  #1a1a1a;
+	transition: 0.3s ease;
+}
+
+a:hover{
+	color: #088178;
+	text-decoration: underline;
+	
+}
+
+/*Home Page banner part*/
+.Homepage{
+	display: flex;	
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 80px;	
+	background: #fff;
+	width: 1500px;	
+
+}
+
+#banner{
+	background-image: url(images/Retro.jpeg);
+	height: 90vh;
+	width: 100%;
+	background-size: cover;
+	background-position: top 25% right 0;
+	padding: 0px 80px;
+	box-shadow: 0px 5px 10px black;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	
+
+}
+
+#banner h4{
+	padding-top: 15px;
+	color:#19fcf5;
+
+}
+
+#banner h1{
+	color:#19fcf5;
+
+}
+
+#banner h2{
+
+	font-size: 46px;
+	line-height: 54px;
+	color:#19fcf5;
+	
+}
+
+#Bbutton{
+	background-image: url(Images/button.png);
+	background-color: transparent;
+	color: #fff;
+	border: 0;
+	padding: 14px 80px 14px 65px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	font-weight: 700;
+	font-size: 15px;
+
+}
+
+
+#bannerImg{
+	background-image: url(images/Pattern.jpg);
+	height: 90vh;
+	width: 100%;
+	background-size: cover;
+	background-position: top 25% right 0;
+	padding: 0px 80px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+
+}
+
+/*Product Part*/
+#FeaturedProducts{
+	width: 1500px;	
+}
+
+#ProTBL{
+	width: 23%;
+	min-width: 250px;
+	padding: 10px 12px;
+	border: 1px solid #cce7d0;
+	border-radius: 25px;
+	margin: auto;
+}
+
+.products{
+	width: 23%;
+	min-width: 250px;
+	padding: 10px 12px;
+	border: 1px solid #cce7d0;
+	border-radius: 25px;	
+	box-shadow: 0px 0px 5px rgb(0, 0, 0.2);
+
+}
+
+.products img{
+	width: 200px;
+	border-radius: 20px;
+
+}
+.products a:hover{
+	text-decoration: none;
+	cursor: pointer;	
+}
+
+#Next{
+	height: 30px;
+	width: 50px;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+/*Footer*/
+#Newletter{	
+	
+	justify-content: space-between;
+	align-items: center;
+	background-image: url("images/b14.png");
+	background-repeat: no-repeat;
+	background-position: 20% 30%;
+	background-color: #041e42;
+}
+
+#Newletter h4{
+	font-size: 22px;
+	font-weight: 700;
+	color: #fff;
+}
+
+#Newletter p{
+	font-size: 14px;
+	font-weight: 600;
+	color: #fff;
+}
+
+#signup{
+	width: 800px;
+}
+
+
+#button{
+	width: 500px;
+	height: 30px;
+	
+}
+
+#button input{
+	height: 30px;
+	font-size: 14px;
+	width: 300px;
+	border: 1px solid transparent;
+	border-radius: 30px;
+	outline: none;
+}
+
+.normal{
+	background-color: #088178;
+	color: #fff;
+	white-space: nowrap;
+	height: 40px;
+	width: 70px;
+	border-radius: 10px;
+}
+
+
+#footer{
+	width: 1000px;
+	height: 100px;
+
+}
+
+#footer td{
+	width: 1000px;
+	height: 20px;
+}
+
+#facebook{
+	width: 80px;
+	height: 50px;
+}
+
+/*Register Page*/
+
+#TblRegister{
+	width: 550px;
+	height: 500px;
+	min-width: 250px;
+	padding: 10px 12px;
+	border: 1px solid #cce7d0;	
+	margin: auto;
+	border-radius: 40px;
+}
+
+.regis{
+	width: 300px;
+	height: 30px;
+}
+
+#Register{
+	background-color: black;
+	color: White;
+	width: 90px;
+	height: 45px;
+}
+
+#Register:hover{
+	cursor: pointer;
+	background-color: lightgray;
+	color: black;
+
+}
+
+#Reg{
+	background-color: #fff;
+	color: black;
+	width: 90px;
+	height: 45px;
+}
+
+#Reg:hover{
+	cursor: pointer;
+	background-color: #32403f;
+	color: White;
+}
+
+/*Order Page*/
+
+#order{
+	background-image: url(images/banner.png);
+	height: 50vh;
+	width: 100%;
+	background-size: cover;
+	background-position: top 25% right 0;
+	padding: 0px 80px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	margin: auto;
+	color: whitesmoke;
+}
+
+
+/*Product Info Page*/
+.Pic{
+	width: 200px;
+	height: 300px;
+	border-radius: 10px;
+}
+
+.Check{
+	width: 200px;
+	height: 20px;
+	border-radius: 20px;
+}
+
+.Function{
+	width: 90px;
+	height: 30px;
+	border-radius: 10px;
+	cursor: pointer;
+	background-color: black;
+	color: white;
+}
+
+.check{
+	width: 300px;
+	height: 20px;
+	
+}
+
+#pictures input{
+	background-color: black;
+	color: white;
+	width: 500px;
+	height: 40px;
+}
+
+
+#pro{
+	width: 100px;
+	height: 500px;
+
+}
+
+.product{
+	width: 600px;
+	height: 800px;
+	box-shadow: 3px 10px 5px rgb(0, 0, 0.2);
+	hspace: 20px;
+	vspace: 50px;
+
+}
+
+#proTxt{
+	margin: 0px 0px 0px 300px;
+}
+
+
+#ProductTbl{
+	width: 700px;
+	height: 400px;
+}
+
+#ProductTbl tr{
+	height: 100px;
+}
+
+#ProductTbl input{
+	width: 300px;
+	height: 45px;
+	background-color: black;
+	color: #fff;
+
+}
+
+#proLogo{
+	width: 100px;
+}
+
+.Productpic{
+	width: 100px;
+	height: 200px;
+	cursor: pointer;
+	padding: 10px 50px 0px 10px;
+}
